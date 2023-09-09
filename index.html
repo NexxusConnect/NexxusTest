@@ -6,12 +6,16 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Nexxus Connect</title>
-  
+  <meta content="The leading consulting firm for small businesses looking to grow into multimillion dollar successes" name="description">
+  <meta content="business consulting, small business consulting, business growth, consulting services" name="keywords">
+
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -24,7 +28,14 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-  
+
+  <!-- =======================================================
+  * Template Name: Nova
+  * Updated: Aug 30 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body class="page-index">
@@ -49,14 +60,11 @@
           <li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="team.html">Team</a></li>
-          
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Locations</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="#">Deep Drop Down 1</a></li>
-              <li><a href="#">Deep Drop Down 2</a></li>
-              <li><a href="#">Deep Drop Down 3</a></li>
-              <li><a href="#">Deep Drop Down 4</a></li>
-              <li><a href="#">Deep Drop Down 5</a></li>
+              <li><a href="#">Southern California</a></li>
+              <li><a href="#">Pacific Northwest</a></li>
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
@@ -71,11 +79,13 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-4">
-          <h2 data-aos="fade-up">Transform Your Business Into an Industry Leader</h2>
-          
+          <h2 data-aos="fade-up">Transform Your Small Business into a Multimillion Dollar Success</h2>
+          <blockquote data-aos="fade-up" data-aos-delay="100">
+            <p>With over 20 years of experience helping small businesses rapidly grow, Nexxus Connect has the expertise to take your business to the next level.</p>
+          </blockquote>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
             <a href="#about" class="btn-get-started">Get Started</a>
-            
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
 
         </div>
@@ -97,7 +107,6 @@
         <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-xl-5 img-bg" style="background-image: url('assets/img/why-us-bg.jpg')"></div>
-          
           <div class="col-xl-7 slides  position-relative">
 
             <div class="slides-1 swiper">
@@ -105,16 +114,33 @@
 
                 <div class="swiper-slide">
                   <div class="item">
-                    <h3 class="mb-3">Strategic Consulting For Business Growth</h3>
-                    
-                    <p>Our team of experts provides data-driven strategic consulting to help your business gain market share, boost revenue, improve operations, and become an industry leader.</p>
+                    <h3 class="mb-3">Industry Leading Strategists</h3>
+                    <h4 class="mb-3">Our team has decades of experience growing small businesses into multimillion dollar companies.</h4>
+                    <p>With a 95% success rate over 20+ years, our strategists know exactly how to help you rapidly grow your business and dominate your industry.</p>
                   </div>
                 </div><!-- End slide item -->
-                
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Proven Growth Strategies</h3>
+                    <h4 class="mb-3">We leverage data-driven frameworks tailored specifically for your business goals and industry.</h4>
+                    <p>Through market research and competitive analysis, we identify key opportunities to help you gain market share and accelerate growth.</p>
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Transformational Results</h3>
+                    <h4 class="mb-3">On average, our clients achieve 500% revenue growth within 3 years of partnering with us.</h4>
+                    <p>Our strategies will transform every area of your business, driving rapid growth, higher profits, and industry domination.</p>
+                  </div>
+                </div><!-- End slide item -->                
+
               </div>
-              
+              <div class="swiper-pagination"></div>
             </div>
-            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
 
         </div>
@@ -122,54 +148,54 @@
       </div>
     </section><!-- End Why Choose Us Section -->
 
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-
+    <!-- ======= Our Services Section ======= -->
+    <section id="services-list" class="services-list">
       <div class="container" data-aos="fade-up">
-        
-        <div class="row gy-4">
-          
-          <div class="col-md-6">
-            <div class="icon-list d-flex">
-              <i class="ri-database-2-line" style="color: #47aeff;"></i>
-              <span>In-Depth Market Analysis</span>
-            </div>
-          </div><!-- End Icon List Item-->
 
-          <div class="col-md-6">
-            <div class="icon-list d-flex">
-              <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-              <span>Customized Growth Strategies</span>
-            </div>
-          </div><!-- End Icon List Item-->
-          
-          <div class="col-md-6">
-            <div class="icon-list d-flex">
-              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <span>Brand Positioning & Messaging</span>
-            </div>
-          </div><!-- End Icon List Item-->
+        <div class="section-header">
+          <h2>Our Services</h2>
 
-          <div class="col-md-6">
-            <div class="icon-list d-flex">
-              <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-              <span>Financial Modeling & Forecasting</span>
-            </div>
-          </div><!-- End Icon List Item-->
-          
         </div>
-        
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-briefcase" style="color: #f57813;"></i></div>
+            <div>
+              <h4 class="title"><a href="#" class="stretched-link">Strategic Planning</a></h4>
+              <p class="description">We create data-driven strategic plans tailored to your business goals, growth targets, and industry landscape.</p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist" style="color: #15a04a;"></i></div>
+            <div>
+              <h4 class="title"><a href="#" class="stretched-link">Financial Modeling</a></h4>
+              <p class="description">Using advanced financial models, we identify profitability drivers to help you maximize ROI.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #d90769;"></i></div>
+            <div>
+              <h4 class="title"><a href="#" class="stretched-link">Market Research</a></h4>
+              <p class="description">We uncover customer insights, growth opportunities, and competition analysis for your industry.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
       </div>
-      
-    </section><!-- End Features Section -->
+    </section><!-- End Our Services Section -->
 
     <!-- ======= Call To Action Section ======= -->
     <section id="call-to-action" class="call-to-action">
       <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center">
-            <h3>Partner With Our Experts To Transform Your Business</h3>
-            <p>Take your company to the next level with strategic insights from our team of industry veterans.</p>
+            <h3>Partner with the Industry Leaders Today</h3>
+            <p>Take your business to the next level. Connect with our experts to start your transformation.</p>
             <a class="cta-btn" href="#">Get Started</a>
           </div>
         </div>
@@ -177,12 +203,77 @@
       </div>
     </section><!-- End Call To Action Section -->
 
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <h3>Award-Winning Strategists <br>Dedicated to Your Success</h3>
+
+            <div class="row gy-4">
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="ri-store-line" style="color: #ffbb2c;"></i>
+                  <span>95% Client Success Rate</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+                  <span>500% Average Revenue Growth in 3 Years</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+                  <span>Over 20 Years of Consulting Experience</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+                  <span>Award-Winning Strategic Plans</span>
+                </div>
+              </div><!-- End Icon List Item-->
+
+            </div>
+          </div>
+          <div class="col-lg-5 position-relative" data-aos="fade-up" data-aos-delay="200">
+            <div class="phone-wrap">
+              <img src="assets/img/team/team-1.jpg" alt="Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="details">
+        <div class="container" data-aos="fade-up" data-aos-delay="300">
+          <div class="row">
+            <div class="col-md-6">
+              <h4>Let Our Results Speak for Themselves</h4>
+              <p>Join the 500+ entrepreneurs we've helped build multimillion dollar businesses. Schedule a free consultation to learn how we can transform your business.</p>
+              <a href="#about" class="btn-get-started">Get Started</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End Features Section -->
+
     <!-- ======= Recent Blog Posts Section ======= -->
     <section id="recent-posts" class="recent-posts">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Recent Articles</h2>
+          <h2>Recent Blog Posts</h2>
+
         </div>
 
         <div class="row gy-5">
@@ -190,22 +281,42 @@
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="post-box">
               <div class="post-img"><img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt=""></div>
-              <h3 class="post-title">How to Increase Brand Awareness</h3>
-              
-              <a href="#" class="readmore stretched-link">Read More <i class="bi bi-arrow-right"></i></a>
+              <div class="meta">
+                <span class="post-date">Tue, December 12</span>
+                <span class="post-author"> / Julia Parker</span>
+              </div>
+              <h3 class="post-title">Key Strategies for Dominating Your Industry</h3>
+              <p>Learn how our framework helped so many small businesses rapidly capture market share and establish themselves as industry leaders...</p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="post-box">
               <div class="post-img"><img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt=""></div>
-              
-              <h3 class="post-title">Scaling Your Business With the Right Strategy</h3>
-              
-              <a href="#" class="readmore stretched-link">Read More <i class="bi bi-arrow-right"></i></a>
+              <div class="meta">
+                <span class="post-date">Fri, September 05</span>
+                <span class="post-author"> / Mario Douglas</span>
+              </div>
+              <h3 class="post-title">The ROI of Business Consulting</h3>
+              <p>Discover how our clients on average achieved over 500% ROI on their consulting investment with us...</p>
+              <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
-          
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="post-box">
+              <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt=""></div>
+              <div class="meta">
+                <span class="post-date">Tue, July 27</span>
+                <span class="post-author"> / Lisa Hunter</span>
+              </div>
+              <h3 class="post-title">Our Step-by-Step Process for Growth</h3>
+              <p>Looking to scale your business? Learn about our proven step-by-step process for strategic planning and execution...</p>
+                            <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -221,9 +332,9 @@
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
-              <span>Nexxus Connect</span>
+              <span>NexxusConnect</span>
             </a>
-            
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
             <div class="social-links d-flex  mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -233,22 +344,35 @@
           </div>
 
           <div class="col-lg-2 col-6 footer-links">
-            <h4>Services</h4>
+            <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-dash"></i> <a href="#">Strategic Planning</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Market Analysis</a></li>
-              <li><i class="bi bi-dash"></i> <a href="#">Financial Modeling</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-dash"></i> <a href="#">Web Design</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Web Development</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Product Management</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Marketing</a></li>
+              <li><i class="bi bi-dash"></i> <a href="#">Graphic Design</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <p>
-              123 Consultancy Lane <br>
+              A108 Adam Street <br>
               New York, NY 535022<br>
               United States <br><br>
               <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@nexxusconnect.com<br>
+              <strong>Email:</strong> info@example.com<br>
             </p>
 
           </div>
@@ -259,18 +383,24 @@
 
     <div class="footer-legal">
       <div class="container">
-        
+        <div class="copyright">
+          &copy; Copyright <strong><span>NexxusConnect</span></strong>. All Rights Reserved
+        </div>
         <div class="credits">
-          
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nova-bootstrap-business-template/ -->
           Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer><!-- End Footer --><!-- End Footer -->
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  
+  <div id="preloader"></div>
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
